@@ -1,0 +1,52 @@
+/* ==UserStyle==
+@name           elearn.chattanoogastate.edu/d2l/home - Feb 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("chattanoogastate.edu") {
+    .d2l-tiles-container {
+    background-color: #282A36 !important; 
+}
+    .d2l-branding-navigation-background-color {
+    background-color: #282A36 !important; 
+}
+    .d2l-branding-navigation-dark-foreground-color a.d2l-navigation-s-link, .d2l-branding-navigation-dark-foreground-color a.d2l-navigation-s-link:link, .d2l-branding-navigation-dark-foreground-color a.d2l-navigation-s-link:visited, .d2l-branding-navigation-dark-foreground-color div.d2l-navigation-s-item>span {
+    color: #BD93F9 !important; 
+}
+    .d2l-typography {
+    color: #BD93F9 !important;
+    display: block;
+    font-family: Lato,Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-size: .95rem;
+    font-weight: 400;
+    letter-spacing: .01rem;
+    line-height: 1.4rem;
+}
+    :root {
+        --d2l-color-tungsten: #BD93F9 !important;
+}
+    .d2l-navigation-s {
+    background-color: #282A36 !important;
+    line-height: 1;
+    min-width: 320px;
+    position: relative;
+}
+    .d2l-tile {
+    background-color: #44475A !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.03);
+}
+    .dco_c {
+    background-color: #44475A !important;
+}
+.d2l-select, .d2l-select:hover:disabled, select.vui-input, select.vui-input:hover:disabled {
+    background-color: #44475A !important;
+    border-color: #6e7477;
+    border-width: 1px;
+    box-shadow: inset 0 2px 0 0 hsla(203,9%,72%,.2);
+    padding: .4rem .75rem;
+}
+}
